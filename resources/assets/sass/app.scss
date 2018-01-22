@@ -1,0 +1,22 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.delete{
+  color: $text-error !important;
+  margin-left: 5px;
+}
+
+.delete:hover{
+  color: $text-error !important;
+}
+
+article{
+  margin-bottom: 40px;
+}
